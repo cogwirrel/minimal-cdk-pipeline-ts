@@ -44,6 +44,7 @@ export class PipelineStack extends Stack {
             commands: [
               'yarn install --frozen-lockfile',
               'yarn run build',
+              'npx cdk synth'
             ],
           },
         },
